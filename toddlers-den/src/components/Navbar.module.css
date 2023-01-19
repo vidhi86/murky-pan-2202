@@ -1,0 +1,20 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuTrigger{
+    /* position: absolute; */
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.dropdownMenu {
+    background-color: aqua;
+    /* position: absolute; */
+    top:5rem;
+    width: 200px;
+    padding: 20px;
+    
+}
