@@ -3,8 +3,8 @@
  "products":[
       {
         "title": "Baby 2-Piece St. Patrick's Day 100% Snug Fit Cotton PJs",
-        "avatar": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002…/1O704210.jpg?sw=800&sh=1000&sfrm=jpg&yocs=4E_4G_",
-        "avatar2": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002…4210_LV03.jpg?sw=800&sh=1000&sfrm=jpg&yocs=4E_4G_",
+        "avatar": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002d6/www.carters.com/v~4b.283/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw6114f830/productimages/1O568210.jpg?sw=800&sh=1000&sfrm=jpg&yocs=4E_4G_",
+        "avatar2": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002d6/www.carters.com/v~4b.283/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwa145d177/productimages/1O568210_1.jpg?sw=800&sh=1000&sfrm=jpg&yocs=4E_4G_",
         "price": "15.00",
         "category": "baby girl",
         "rating": "★★★★☆",

@@ -14,11 +14,16 @@ import ban1 from "../img/banner1.jpeg";
 import ban2 from "../img/banner2.jpeg";
 import ban3 from "../img/banner3.jpeg";
 import ban4 from "../img/banner4.jpeg";
+import Responsive from "../components/corousal";
 import { Button, Grid,Box,Image,Heading ,Text} from "@chakra-ui/react";
 import styles from "./Home.module.css";
+import AutoPlay from "../components/pictureCorousel"
 
 
 function Home() {
+
+
+
   return (
     <div>
       <h1>Home page</h1>
@@ -303,6 +308,11 @@ function Home() {
           <Image src={ban4} alt="baby girl" />
         </Box>
       </Grid>
+
+      {/* corousal1 */}
+      <Responsive/>
+      {/* pictures */}
+      <AutoPlay/>
     </div>
   );
 }
