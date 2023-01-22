@@ -2,6 +2,8 @@
 .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(206, 204, 204);
 }
 
 .menuTrigger{
@@ -9,6 +11,14 @@
     overflow: hidden;
     cursor: pointer;
     
+}
+.menuTrigger h1{
+    font-weight: bold;
+    font-family: SourceSansPro, Helvetica, Arial, sans-serif;
+}
+.menuTrigger p{
+    font-weight: lighter;
+    font-size: 13px;
 }
 .dropdownMenu {
     background-color: aqua;

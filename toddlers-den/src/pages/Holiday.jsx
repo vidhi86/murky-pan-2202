@@ -1,16 +1,16 @@
-import {  useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import heart from "../img/heart.png";
 
-import { Box, Grid,Image, Heading, Button } from "@chakra-ui/react";
+import { Box, Grid, Image, Heading, Button } from "@chakra-ui/react";
 
 const getData = (params = {}) => {
   return axios.get(
-    `http://localhost:3001/products?category=baby_girl&category=baby_boy`
+    `http://localhost:3001/products`
   );
 };
 
-function Baby() {
+function Holiday() {
   const [data, setData] = useState({});
   useEffect(() => {
     getData()
@@ -25,7 +25,6 @@ function Baby() {
 
   return (
     <>
-    
       <Grid templateColumns="repeat(3, 1fr)" gap="1px">
         {data?.data?.map((el) => (
           <Box padding="70px">
@@ -56,4 +55,4 @@ function Baby() {
     </>
   );
 }
-export default Baby;
+export default Holiday;
